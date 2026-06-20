@@ -1,0 +1,31 @@
+# ===== API 金鑰與環境變數（絕對不上傳）=====
+.env
+.env.local
+.env.production
+*.key
+secrets.json
+
+# ===== macOS 系統檔 =====
+.DS_Store
+.DS_Store?
+._*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# ===== Node.js（如果有用）=====
+node_modules/
+npm-debug.log
+
+# ===== 產出的圖片（本機暫存，不上傳）=====
+output/
+generated_images/
+*.tmp
+
+# ===== Claude Code 本機設定 =====
+.claude/settings.local.json
